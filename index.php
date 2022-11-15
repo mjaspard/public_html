@@ -122,7 +122,7 @@ h3{
         <div class="center" id="map"></div>
         <br>
         <div class="main">
-            <p> 1 new stations are in construction...</p>
+<!--             <p> 1 new stations are in construction...</p> -->
             <img url="/FBVL2/index.php" class="logo" src='icons8-manche-à-air-48-2.png' width="40"/>
         </div> 
     </div>
@@ -155,7 +155,8 @@ var manche = L.icon({
 
 var points = [
     ["Beauraing", 50.091, 4.924, "/Beauraing/index.php"],
-    ["La Roche", 50.20128, 5.52701, "/FBVL1/index.php"]
+    ["La Roche", 50.20128, 5.52701, "/FBVL1/index.php"],
+    ["Maillen", 50.374, 4.925,  "/FBVL2/index.php"]
 
     ];
 var marker = [];
