@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home2/windspot/public_html/
-    - /bin/cp index.php $DEPLOYPATH
