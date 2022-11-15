@@ -1,0 +1,5 @@
+# ignore wordpress stuff
+
+wp-admin/
+wp-content/
+wp-includes/

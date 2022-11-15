@@ -1,0 +1,50 @@
+####### Sleep Time values  ###########
+        
+17          # StartSleep_01
+11          # WakeUp_01
+
+16          # StartSleep_02
+11          # WakeUp_02
+
+17          # StartSleep_03
+10          # WakeUp_03
+
+17          # StartSleep_04
+10          # WakeUp_04
+
+18          # StartSleep_05
+9          # WakeUp_05
+
+19          # StartSleep_06
+9          # WakeUp_06
+
+19          # StartSleep_07
+9          # WakeUp_07
+
+18          # StartSleep_08
+9          # WakeUp_08
+
+17          # StartSleep_09
+9          # WakeUp_09
+
+16          # StartSleep_10
+10          # WakeUp_10
+
+15          # StartSleep_11
+11          # WakeUp_11
+
+15          # StartSleep_12
+11          # WakeUp_12
+
+
+####### Girouette Analog Value ############
+
+1667    # AnalogVal_N
+2190   # AnalogVal_NE
+1216    # AnalogVal_E
+1834    # AnalogVal_SE
+1056    # AnalogVal_Sud
+2320    # AnalogVal_SO
+1980   # AnalogVal_O
+1985    # AnalogVal_NO
+

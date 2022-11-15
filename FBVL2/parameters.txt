@@ -1,0 +1,61 @@
+FBVL2 # Site
+Maillen # Sitename
+
+####### Sleep Time values  ###########
+        
+16          # StartSleep_01
+11          # WakeUp_01
+
+16          # StartSleep_02
+11          # WakeUp_02
+
+19         # StartSleep_03
+10          # WakeUp_03
+
+19          # StartSleep_04
+10          # WakeUp_04
+
+19          # StartSleep_05
+9          # WakeUp_05
+
+19          # StartSleep_06
+9          # WakeUp_06
+
+19          # StartSleep_07
+9          # WakeUp_07
+
+19         # StartSleep_08
+9          # WakeUp_08
+
+18          # StartSleep_09
+9          # WakeUp_09
+
+17          # StartSleep_10
+10          # WakeUp_10
+
+16          # StartSleep_11
+10          # WakeUp_11
+
+15          # StartSleep_12
+11          # WakeUp_12
+
+
+####### Girouette Analog Value ############
+
+4095    # AnalogVal_N
+0       # AnalogVal_NNE
+350     # AnalogVal_NE
+500     # AnalogVal_ENE
+780     # AnalogVal_E
+1090     # AnalogVal_ESE
+1370    # AnalogVal_SE
+1600    # AnalogVal_SSE
+1900    # AnalogVal_S
+2180    # AnalogVal_SSO
+2475    # AnalogVal_SO
+2680    # AnalogVal_OSO
+2965    # AnalogVal_O
+3280    # AnalogVal_ONO
+3600    # AnalogVal_NO
+4050    # AnalogVal_NNO
+

@@ -1,0 +1,466 @@
+
+
+label{
+text-align: left;
+alignment-baseline: left;
+}
+
+.box{
+border: 1px solid #aaa;
+border-radius: 4px;
+color: grey;
+
+}
+p{
+color: grey;
+font-size: 8px;
+text-align: left; 
+margin-left: 80px;
+margin-right: 120px;
+}
+
+.leaflet-control-layers-expanded {
+  width: 200px;
+  font-size: 10px;
+  text-align: left;
+  background-color: lightgrey;
+}
+
+
+
+
+.defo > a{
+color: CornflowerBlue;
+font-size: 12px;
+padding-right: 30px;
+padding-left: 80px;
+}
+
+dt > a{
+color: CornflowerBlue;
+font-size: 12px;
+padding-right: 30px;
+padding-left: 80px;
+}
+
+.Selection_Small_Area > figure > figcaption > dt > a{
+padding: 0px;
+margin: 0px;
+}
+
+figcaption > dt {
+text-align: center;
+}
+h3 + a > input{
+color: Darkgrey;
+font-size: 12px;
+padding: 0px;
+margin-right: 10px;
+height: 30px;
+width: 50px;
+background-color: transparent;
+border: 2px Darkgrey solid;
+}
+h3 + a > input + input {
+color: CornflowerBlue;
+border-color: CornflowerBlue;
+font-size: 10px;
+}
+h3 + a > input + input + input {
+color: darkgreen;
+border-color: Darkgreen;
+}
+.medButton{
+color: Darkgrey;
+font-size: 10px;
+padding: 0px;
+margin-left: 10px;
+margin-right: 10px;
+height: 22px;
+width: 50px;
+background-color: transparent;
+border: 2px Darkgrey solid;
+}
+.medButton + .medButton{
+color: CornflowerBlue;
+border-color: CornflowerBlue;
+}
+.medButton + .medButton + .medButton{
+color: Darkgreen;
+border-color: Darkgreen;
+}
+.miniButton{
+color: Darkgrey;
+font-size: 10px;
+padding: 0px;
+margin-right: 10px;
+height: 25px;
+width: 40px;
+background-color: transparent;
+border: 2px Darkgrey solid;
+
+}
+.miniButton + .miniButton{
+color: CornflowerBlue;
+border-color: CornflowerBlue;
+}
+.miniButton + .miniButton + .miniButton{
+color: Darkgreen;
+border-color: Darkgreen
+}
+.LongButton{
+color: Darkgrey;
+font-size: 16px;
+padding: 0px;
+margin:auto;
+display:block;
+height: 40px;
+width: 300px;
+background-color: transparent;
+border: 2px Darkgrey solid;
+}
+figcaption .defo {
+text-align: center;
+}
+
+mtime{
+color: darkgrey;
+text-align: center; 
+font-size: 10px;
+}
+
+.HeaderButton{
+display: flex;
+justify-content: space-around;
+color: grey;
+margin: 3px;
+padding: 2px;
+}
+
+
+.showgrid{
+padding: 10px;
+margin-right: 125px;
+display: flex;
+align-content: flex-end;
+justify-content: flex-end;
+}
+
+form div div h4{
+text-decoration: underline;
+}
+h4 + h4
+{
+	font-size: 12px;
+	text-decoration: underline-dotted;
+}
+
+#Selection_Ampli_Defo{
+	display: flex;
+  	justify-content: space-around;		
+}
+
+.Selection_Area{
+	display: flex;
+  	justify-content: space-around;		
+}
+.Selection_Small_Area{
+	display: flex;
+  	justify-content: space-around;		
+}
+
+.ampli{
+background-color: lightgray;
+padding: 10px;
+}
+.Defo{
+background-color: lightgray;
+padding: 10px;
+}
+.Crop{
+background-color: lightgray;
+padding: 10px;
+}
+
+.submit{
+	justify-content: center;
+	display: flex;
+	color: Black;
+	margin: 5px;
+}
+
+
+.transparency [id=transp]{
+	padding: 5px;
+	margin: auto;
+	color: black;
+	width: 400px;
+	align-content: center;
+	display: flex;
+  }
+.transparency [id=sub]{
+	padding: 4px;
+	margin: auto;
+	margin-top: 10px;
+	color: black;
+	width: 130px;
+	text-align: center;
+	display: flex;
+  }
+
+.Crop input {
+    margin: 1px;
+    padding: 1px;
+    font-size: 12px;
+    margin-right: 10px;
+    width: 80px;
+}
+.TranspImage{
+	padding: 2px;
+	display: flex;
+  }
+
+
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+
+
+
+/* The switch - the box around the slider */
+/* 
+.transp {
+  position: relative;
+  display: inline-block;
+  width: 180px;
+  height: 340px;
+}
+ */
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 40;
+  right: 40;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+.jumbotron gr {
+text-color: green;
+}
+.jumbotron or {
+color: orange;
+}
+.imageflottante
+{
+    float: left;
+}
+.dessous
+{
+    clear: both;
+}
+
+
+.jumbotron {
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  color: inherit;
+  background-color: #eee;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color:dimgrey;
+text-align: center;
+}
+
+.jumbotron h3,
+.jumbotron .h3 {
+font-size: 8 px;
+font-style: bold; 
+color:grey;
+border: 4;
+font-size: 6 px;
+text-align: center;
+  }
+  
+.jumbotron h4,
+.jumbotron .h4 {
+font-style: bold;
+color:grey;
+border: 4;
+text-align: center;
+}
+
+.jumbotron h5 {
+font-style: bold;
+color:grey;
+font-size: 25px;
+text-align: center;
+}
+
+.jumbotron p {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 200;
+}
+.jumbotron a {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 200;
+}
+.jumbotron > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotron,
+.container-fluid .jumbotron {
+  border-radius: 0px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding: 4px 0;
+  }
+  .container .jumbotron,
+  .container-fluid .jumbotron {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 30px;
+  }
+ .jumbotron h4,
+  .jumbotron .h4 {
+    font-size: 14px;
+  }
+
+
+.inline{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.inline2{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+ .blinking{
+text-align: center;
+color: red;
+animation:blinkingText 1.2s infinite;
+}
+
+
+@keyframes blinkingText{
+0%{ color: red; }
+49%{ color: red; }
+60%{ color: transparent; }
+99%{ color: transparent; }
+100%{ color: red; }
+}
+ .blink_Button{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 14px;
+	font-family: verdana;
+	color: #554D2C;
+	background-color: lightgrey;
+	border-style: solid;
+	border-color: #556B2F;
+	margin: 5px;
+	width: 350px;
+	height: 25px;
+animation:blinkingText2 2.5s infinite;
+}
+@keyframes blinkingText2{
+0%{ color: grey; }
+49%{ color: grey; }
+60%{ color: transparent; }
+99%{ color: transparent; }
+100%{ color: grey; }
+}
+.center{
+text-align: center;
+}
+.ref {
+margin-right: auto;
+margin-left: auto;
+width: 900px;
+font-size: 10px;
+text-align: center;
+color: grey;
+border: none;
+}
+
+
+
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
